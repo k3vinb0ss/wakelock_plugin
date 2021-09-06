@@ -1,15 +1,10 @@
 # wakelock_plugin
 
-A new Flutter project.
+Flutter plugin for Android Wakelock
 
-## Getting Started
+## Main functions
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+- backToForeground: bring app back to foreground / lauching app
+- acquireWakelock: acquire wakelock for 3 seconds and wake up device's screen.
+- screenState: get screen state stream (on/off)
+- getScreenAndKeyguardState: get screen state (on/off) with keyguard (locked / unlocked)
